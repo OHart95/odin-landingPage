@@ -117,3 +117,59 @@ ul {
 .info-item {
     width: 150px;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    width: 50%;
+    margin: 100px 100px;
+    
+}
+
+.quote-ref {
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.action-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    margin: 50px;
+    width: 75%;
+    padding: 30px 100px;
+
+}
+
+.call-to-action button {
+    background-color:transparent;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    font-weight: 600;
+    border-radius: 8px;
+    flex-basis: 30px;
+    width: 125px;
+    margin-top: 20px;
+}
